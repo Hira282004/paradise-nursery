@@ -1,0 +1,50 @@
+/* ProductList.css — product listing page for Paradise Nursery */
+
+.product-list {
+  padding: 2rem;
+  text-align: center;
+}
+
+.product-category {
+  margin-bottom: 3rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem;
+  background: #ffffff;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-cost {
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.product-card button {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+}
+
+.product-card button:disabled {
+  background-color: #9e9e9e;
+  cursor: not-allowed;
+}
